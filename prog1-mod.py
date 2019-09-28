@@ -1,10 +1,9 @@
-#!/usr/bin/python
+#!/home/ec2-user/miniconda/bin/python3
 
-print "Enter your name: "
-n = raw_input()
-s = "Hello," + n + "!"
-print s
-print "Nice to meet you ;)"
+print("Enter your name: ", end = "")
+n = input()
+print("Hello," + n + "!")
+print("Nice to meet you ;)")
 
 
 
